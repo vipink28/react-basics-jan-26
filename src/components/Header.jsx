@@ -12,6 +12,7 @@ function Header() {
             <div>
                 {/*adding class*/}
                 <h2 className={headerText}>{title}</h2>
+                <h2 className={headerText}>{title}</h2>
 
                 {/*Conditional classes */}
                 <h2 className={isHeader ? "accent-text" : "base-text"}>{title}</h2>
