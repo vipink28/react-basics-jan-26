@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.primary-text {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.accent-text {
+  background-color: coral;
+  color: #213547;
+}
+
+.base-text {
+  background-color: beige;
+  color: #1a1a1a;
+}
+
+.border-heading {
+  border: 3px solid red;
+}
+
+.card {
+  background-color: coral;
+  color: #242424;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  stroke: bisque;
+}
+
+.card-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.on-sale {
+  background-color: orangered;
+}
