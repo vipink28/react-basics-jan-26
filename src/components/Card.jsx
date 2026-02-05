@@ -15,7 +15,7 @@ function Card({ title, onSale, children }) {
     // after 
     col1
 
-    const user = { name: "Suchi", course: "Python" }
+    const user = { name: "Suchi", course: "Python", age: 25 }
     const { course, name } = user
 
     return (
