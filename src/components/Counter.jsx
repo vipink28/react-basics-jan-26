@@ -3,6 +3,7 @@ import { useState } from "react";
 function Counter() {
     const [count, setCount] = useState(0);
     const incrementHandler = () => {
+
         setCount(count + 1)
     }
     const decrementHandler = () => {
